@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<tête>
+    <title>CARTE-V.CG</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--link rel="stylesheet" type="text/css" href="print.css" media="print" / -->
+    <link rel="shortcut icon" href="../../images/republic-of-the-congo.svg" />
+    <link rel="stylesheet" href="cssmenu.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        intégrité="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonyme">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        intégrité="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonyme">
+    </script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="feuille de style"
+        intégrité="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonyme">
+    <!-- QR Code Js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+    <script LANGUAGE="JavaScript">
+    // Fonction exécutée lors de l'utilisation du clic droit.
+
+    fonction désactiverselect(e) {
+        retourner faux
+    }
+
+    fonction réactiver() {
+        retourner vrai
+    }
+
+    //si IE4+
+    document.onselectstart = new Function("return false")
+    document.oncontextmenu = new Function("return false")
+    //si NS6
+    si (fenêtre.sidebar) {
+        document.onmousedown=disableselect
+        document.onclick=réactiver
+    }
+    </script>
+
+    
+    <style type="text/css">
+    @media print {
+        corps {
+            affichage : aucun
+        }
+    }
+    </style>
+
+    
+
+    <style>
+    /* $bleu : #0084ff ;
+    $blue-darker : assombrir($blue, 5); */
+
+    .troisvaleurs {
+        bordure : 0.3em 0 9px pointillé orange ;
+    }
+
+    corps {
+        marge : 4 % ;
+
+        famille de polices : Helvetica ;
+
+    }
+
+    #banner-message {
+
+        arrière-plan : #fff ;
+        rayon de bordure : 4 px ;
+        boîte-ombre : 0 0 17px rgba(20, 255, 120, 0.431) ;
+        boîte-ombre : 0 0 7px rgba(20, 0, 0, 120.31) ;
+        taille de police : 12 px ;
+
+        aligner le texte : centrer ;
+        rembourrage : 3px ;
+
+        transition : tous les 3 ;
+
+        largeur : 10 cm ;
+        hauteur : 7 cm ;
+
+    }
+
+    #banner-message1 {
+
+        arrière-plan : #fff ;
+        rayon de bordure : 4 px ;
+        boîte-ombre : 0 0 17px rgba(20, 255, 120, 0.431) ;
+        boîte-ombre : 0 0 7px rgba(20, 0, 0, 120.31) ;
+        rembourrage : 3px ;
+        taille de police : 15 px ;
+
+        aligner le texte : centrer ;
+        transition : tous les 3 ;
+
+        largeur : 10 cm ;
+        hauteur : 7 cm ;
+
+    }
+    </style>
+
+
+    <title>Merci !</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <style type="text/css" media="screen"></style>
+    <meta name="robots" content="noindex,nofollow" />
+
+    <style>
+    .encadre {
+
+        couleur d'arrière-plan : rgba (255, 255, 255) ;
+        marge : 0,451 % ;
+    }
+
+    .encadre2 {
+
+        couleur de fond : #e9c960 ;
+        haut : 0 ;
+    }
+
+    .paye {
+        couleur : #000000 ;
+        taille de police : 15 px ;
+        aligner le texte : à gauche ;
+    }
+
+    .Page 1 {
+        /* largeur : 24cm ; */
+        hauteur min : 1 cm ;
+        rembourrage : 0,268 cm ;
+        marge : 0,31 cm ;
+
+        rayon de bordure : 5 px ;
+        boîte-ombre : 0 0 7px rgba(20, 0, 0, 120.31) ;
+
+    }
+
+    .page 2 {
+        /* largeur : 24cm ; */
+        hauteur min : 1 cm ;
+        rembourrage : 0,11268 cm ;
+
+        rayon de bordure : 5 px ;
+        boîte-ombre : 0 0 7px rgba(20, 0, 0, 120.31) ;
+
+    }
+
+    @page {
+        taille : tout ;
+        /* taille : A4 ; */
+        marge : 0 cm ;
+        rembourrage : 0 cm ;
+    }
+
+    @media print {
+        #tabbulletin {
+
+            marge : 0 ;
+            bordure : initiale ;
+            border-radius : initiale ;
+            largeur : initiale ;
+            hauteur min : initiale ;
+            boîte-ombre : initiale ;
+            arrière-plan : initiale ;
+            page-break-after : toujours ;
+
+        }
+    }
+
+    .NomsP {
+            texte-ombre : 0.2em 0.5em 0.1em #600,
+                -0.3em 0.1em 0.1em #060,
+                0.4em -0.3em 0.1em #006;
+        }
+
+            </style>
+
+</tête>
+
+
+
+<body class="cartePVC" style="text-align:center;"
+    onMouseOver="window.status='Merci de respecter le contenu en ne pas le copier sans autorisation !'; return true;">
+
+    <div style="marge : 0px ; ">
+
+        <div class="page1">
+
+            <div class="page1" style="text-align : center ; ">
+                <div style="height:2.0cm;margin: auto;text-align: center; ">
+                    <div class="encadrer">
+                        <table border="0" style="margin : auto;text-align : center ; ">
+                            <tr>
+                                <td style="text-align : droite ; largeur : 10 % ;"
+                                    style=" bordure : 1.6px solide rgba(55, 55, 215);">
+                                    <img src="drapo242.jpg" width="40" />
+                                </td>
+                                <td style="width:80%;">
+                                    <span class="pays" style="text-align : left ; text-align : center ; ">
+                                        <b>RÉPUBLIQUE DU CONGO</b>
+                                        <div
+                                            style="text-align: center; color: #000000; font-size:13px; border-bottom : épais double #26650E;">
+                                            <span>
+                                                Ministère de la Santé et de la Population
+
+                                            </span>
+
+                                        </div>
+
+                                    </span>
+
+
+                                </td>
+                                <td style="text-align : droite ; largeur : 10 % ;"
+                                    style=" bordure : 1.6px solide rgba(55, 55, 215);">
+                                    <img src="armoirieRC.png" width="40" />
+                                </td>
+                            </tr>
+
+                            <!-- <tr>
+                                <td colspan="3">
+                                    <div style="font-size:12px; font-weight : gras ; padding-right : 4 % ; padding-left : 4 % ; ">
+                                        CERTIFICAT DE VACCINATION CONTRE LE COVID-19 <br />
+
+                                        <div
+                                            " >
+                                            Certificat de vaccination Covid-19
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr> -->
+                        </table>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <br />
+            <div class="alert alert-success alert-dismissible fade show" role="alert" style="text-align:center; margin:0px; padding-right:4%; padding-left:4%; ">
+                <h4 class="alert-heading"><strong>Document conforme !</strong></h4>
+                <h>
+                <span style="font-size:12px; font-weight : gras ;">
+                    CERTIFICAT DE VACCINATION CONTRE LE COVID-19
+                    <!-- <br /> -->
+                    <div
+                        style="border-top : 0,7px solid #26650E ; text-transform : majuscule ; font-size : 13px ; font-weight : gras ; top : 0px ; text-align : center ; ">
+                        Certificat de vaccination Covid-19
+                    </div>
+
+                </span>
+                <br />
+                <div style="text-align:center; ">
+                    <bouton type="bouton" class="btn btn-succès">
+                        Bonjour, votre PASS-SANITAIRE est conforme et enregistré sous le N°
+                     68369195SANS68369195  .
+                    </bouton>
+
+                </div>
+
+                        <!-- Pour les besoins d'amélioration, nous sommes en train de travailler pour un meilleux service. -->
+                <!--N° :-->
+                <span style="font-size:19px; font-weight : gras ; ">
+                                </span>
+                <br />
+                Appartient à :
+                <span style="font-size: 19px;font-weight: bold;font-family: italic 1.2em 'Fira Sans',serif;">
+                
+	         ASSOUNGA YOBO NATACHA .                
+                </span>
+
+                <br />
+                
+                Né(e) le :
+                
+                1978-04-06            
+                </b>
+                <br />
+                
+                Âge :
+                <b>
+                    
+                43 ans</b>
+
+                <br />
+                
+                Sexe      :
+                Féminin </b>
+                <br />
+                
+
+                Dose unique      :
+                 <b>
+                920521 </b>
+
+                
+                
+                
+                 
+                
+
+                <br />
+                
+                Date de la dernière dose  :
+                <b>
+                2021-12-20 </b>
+
+                <br />
+                
+                Vaccin :
+                <b>
+                JANSSEN </b>
+
+
+                <br />
+                <div>
+                    <img src='MAOUKOLA.png' alt="" width="100" height="100">
+                </div>
+                <a
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Fermer">
+                        <span aria-hidden="true">×</span>
+                    </bouton>
+                </a>
+
+            </div>
+
+
+        </div>
+        <!-- Carte dans le QR CODE -->
+        <br />
+
+
+
+        <!--<div id="tabbulletin" class="page1" style="margin : 10px ;">-->
+        <!-- <table border="0">-->
+        <!-- <tbody>-->
+        <!-- <tr style="margin : 0 ;">-->
+        <!-- <td style="margin : 0 ; ">-->
+        <!-- <div class="page2" style="largeur : 10,2 cm ;">-->
+        <!-- <div class="page2" id="banner-message" style="margin : 0px ; background-color:white ; ">-->
+
+        <!-- <div style="height:6.30cm; border: 1.6px solid rgba(55, 55, 215);">-->
+        <!-- <div style="hauteur:2.0cm;">-->
+        <!-- <div class="encadré">-->
+        <!-- <table border="0" style="width : 9.69cm;text-align : center ; ">-->
+        <!-- <tr>-->
+        <!-- <td style="text-align: right; width:10%;"-->
+        <!-- style=" bordure : 1,6 pixel rgba solide (55, 55, 215);">-->
+        <!-- <img src="https://lnsp-cg.org/images/drapo242.jpg"-->
+        <!-- width="40" />-->
+        <!-- </td>-->
+        <!-- <td style="width:80%;">-->
+        <!-- <span class="paye"-->
+        <!-- style="text-align : gauche ; text-align : centre ; ">-->
+        <!-- <b>RÉPUBLIQUE DU CONGO</b>-->
+        <!-- <div-->
+        <!-- style="text-align: center; color: #000000; font-size:13px; border-bottom : épais double #26650E;">-->
+        <!-- <span>-->
+        <!-- Ministère de la Santé et de la Population-->
+
+        <!-- </span>-->
+
+        <!-- </div>-->
+
+        <!-- </span>-->
+
+        <!-- </td>-->
+        <!-- <td style="text-align: right; width:10%;"-->
+        <!-- style=" bordure : 1,6 pixel rgba solide (55, 55, 215);">-->
+        <!-- <img src="https://lnsp-cg.org/images/armoirieRC.png"-->
+        <!-- width="40" />-->
+        <!-- </td>-->
+        <!-- </tr>-->
+        <!-- </table>-->
+
+
+        <!-- </div>-->
+
+        <!-- <div-->
+        <!-- style="font-size:12px; font-weight : gras ; padding-right : 4 % ; padding-left : 4 % ; ">-->
+        <!-- CERTIFICAT DE VACCINATION CONTRE LE COVID-19 <br />-->
+        <!-- <div-->
+        <!-- style="border-top : 0.7px solid #26650E ; text-transform : majuscule ; font-size : 10px ; font-weight : gras ; haut : 0px ; padding-right : 4 % ; padding-left : 4 % ; ">-->
+        <!-- Certificat de vaccination Covid-19-->
+        <!-- </div>-->
+
+        <!-- </div>-->
+
+        <!-- </div>-->
+
+        <!-- <div class="encadre2"-->
+        <!-- style="margin-top : 10px ; couleur : #000000 ; hauteur : 3,90 cm ; couleur d'arrière-plan : rgba(238, 255, 85, .567);">-->
+
+        <!-- <div style="couleur : #000000 ; ">-->
+        <!-- <tableau-->
+        <!-- style="font-size:14px; border-collapse:collapse; border:none; largeur : 9,69 cm;">-->
+        <!-- <tbody>-->
+        <!-- <tr style="height:10pt">-->
+        <!-- <td class="xl89" colspan="2" height="10"-->
+        <!-- style="height:10pt; font-size:9px; text-align: left; width:60%;">-->
+        <!-- <b>Vaccin :-->
+        <!-- ?php si (isset($NomDos1)) {-->
+        <!-- echo $NomDos1;-->
+        <!-- } ?>-->
+        <!-- </b>-->
+
+        <!-- </td>-->
+
+        <!-- <td class="xl90" colspan="5"-->
+        <!-- style="font-size:9px; font-weight : gras ; text-align : droite ; largeur : 40 % ;">-->
+        <!-- N° :-->
+        <!-- ?php si (isset($IDENTIFia)) {-->
+        <!-- echo $IDENTIFia;-->
+        <!-- } ?>-->
+
+        <!-- </td>-->
+        <!-- </tr>-->
+
+        <!-- <tr-->
+        <!-- style="height:12pt; border:.5pt solid black; border-collapse:collapse; width: 9.69cm;">-->
+        <!-- <td class="xl67" colspan="3"-->
+        <!-- style="text-align : gauche ; largeur : 100 % ;">-->
+        <!--  -->
+        <!-- <span class="NamesP"-->
+        <!-- style="font-size: 12px; font-weight: bold;font-family: italic 1.2em 'Fira Sans',serif;">-->
+        <!-- M<sup>r</sup>/ M<sup>moi</sup> :-->
+        <!-- ?php-->
+        <!-- si (isset($NomPrnom)) {-->
+        <!-- echo substr($NomPrnom, 0, 40) . '.';-->
+        <!-- }-->
+        <!-- ?>-->
+
+        <!-- </span>-->
+
+        <!-- </td>-->
+
+        <!-- </tr>-->
+
+        <!-- </tbody>-->
+        <!-- </table>-->
+
+        <!-- <table style=" font-size:12px; border-collapse:collapse; border:none;">-->
+        <!-- <tbody>-->
+        <!-- <tr style="border:.5pt noir uni ; largeur : 9,69 cm ;">-->
+        <!-- <td-->
+        <!-- style="text-align : gauche ; padding-top : 0px ; bordure : 0,5 pt noir uni ; largeur : 67 % ; ">-->
+
+        <!-- <div style="margin-left : 23px ;">-->
+
+        <!--  -->
+        <!-- Né(e) le :-->
+        <!-- <b>?php if (isset($DateNais)) {-->
+        <!-- echo $DateNais;-->
+        <!-- } ?></b>-->
+        <!-- <br />-->
+        <!--  -->
+        <!-- Âge        :-->
+        <!-- <b>?php if (isset($Age)) {-->
+        <!-- echo $Age . " " ;-->
+        <!-- } ?>-->
+        <!-- répond</b>-->
+
+        <!-- <br />-->
+        <!--  -->
+        <!-- Sexe     :-->
+        <!-- <b>?php if (isset($Sexe)) {-->
+        <!-- echo $Sexe;-->
+        <!-- } ?></b>-->
+        <!-- <br />-->
+        <!--  -->
+
+        <!-- Dose-1      :-->
+        <!-- <b>?php si (isset($LotDos1)) {-->
+        <!-- echo $LotDos1;-->
+        <!-- } ?></b>-->
+
+        <!-- <br />-->
+        <!--  -->
+
+        <!-- <b>-->
+        <!-- ?php-->
+        <!-- si (isset($LotDos2)) {-->
+        <!-- echo "Dose-2     :" . $LotDos2 ;-->
+        <!-- } sinon {-->
+        <!-- if ($UneSeulDose == true) {-->
+        <!-- echo "<p style='background-color: rgba(238, 255, 85,.567);font-size:20px;'>M./Mme n'a pas encore pris la 2ème dose<p />";-->
+        <!-- } sinon {-->
+        <!-- echo ' -- Dose unique -- ';-->
+        <!-- }-->
+        <!-- }-->
+        <!-- ?>-->
+        <!-- </b>-->
+
+        <!-- <br />-->
+        <!--  -->
+        <!-- Date de la dernière dose  :-->
+        <!-- <b>?php si (isset($DateDos2)) {-->
+        <!-- echo $DateDos2;-->
+        <!-- } sinon {-->
+        <!-- echo $DateDos1;-->
+        <!-- } ?></b>-->
+
+        <!-- </div>-->
+
+        <!-- </td>-->
+
+        <!-- <td colspan="2" rowspan="2"-->
+        <!-- style="padding:2px; text-align: right; ">-->
+
+        <!-- <div id="qrcode"></div>-->
+
+        <!-- </td>-->
+
+        <!-- </tr>-->
+
+        <!-- </tbody>-->
+        <!-- </table>-->
+
+        <!-- </div>-->
+        <!-- </div>-->
+
+
+        <!-- </div>-->
+
+        <!-- <div>-->
+        <!-- <div style="color: #000000; padding-right:3%; padding-left:3%; font-size:11px;">-->
+
+        <!-- <b>-->
+        <!-- <span>-->
+        <!-- PROGRAMME ELARGI DE VACCINATION-->
+        <!-- </span>-->
+        <!-- </b>-->
+
+        <!-- </div>-->
+
+        <!-- </div>-->
+        <!-- </div>-->
+
+        <!-- </div>-->
+
+        <!-- </td>-->
+        <!-- <td style="marg
+</body>
+
